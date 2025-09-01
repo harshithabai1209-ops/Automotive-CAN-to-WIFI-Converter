@@ -1,4 +1,4 @@
-🚗 Automotive CAN-to-WiFi Converter
+🚗 Automotive CAN-to-WiFi Converter(PCB DESIGN)
 📌 Overview
 
 This project implements an Automotive CAN (Controller Area Network) to Wi-Fi converter using a microcontroller with integrated Wi-Fi and a custom PCB designed in KiCad.
