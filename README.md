@@ -2,7 +2,7 @@
 📌 Overview
 
 This project implements an Automotive CAN (Controller Area Network) to Wi-Fi converter using a microcontroller with integrated Wi-Fi and a custom PCB designed in KiCad.
-It allows vehicles’ CAN bus data (speed, RPM, fuel level, sensor data, etc.) to be captured, processed, and transmitted over Wi-Fi to mobile apps, dashboards, or cloud platforms for real-time monitoring and analysis.
+It allows vehicles’ CAN bus data (speed, RPM, fuel level, sensor data, etc.) to be captured, processed, and transmitted over Wi-Fi to mobile apps.
 
 🚀 Features
 
