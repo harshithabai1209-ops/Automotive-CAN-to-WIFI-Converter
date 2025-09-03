@@ -76,41 +76,6 @@ Supports real-time monitoring dashboard
 
 Configurable baud rates (125 kbps, 250 kbps, 500 kbps)
 
-OTA (Over-The-Air) firmware update support
-
-🔌 System Block Diagram
-          +-------------------+
-          |   Vehicle CAN Bus |
-          +--------+----------+
-                   |
-             CAN_H / CAN_L
-                   |
-           +---------------+       +-------------+
-           | CAN Transceiver|----->| Microcontroller (ESP32) |
-           +---------------+       +-------------+
-                                          |
-                                      Wi-Fi Data
-                                          |
-                                 +------------------+
-                                 |  Mobile App /    |
-                                 |  Cloud Dashboard |
-                                 +------------------+
-
-📂 Project Structure
-CAN-to-WiFi-Converter/
-│── hardware/
-│   ├── schematics/        # KiCad schematic files
-│   ├── pcb-layout/        # PCB design files
-│   └── gerbers/           # Manufacturing files
-│
-│── firmware/
-│   ├── main.ino           # Arduino / ESP-IDF code
-│   └── config.h           # Wi-Fi, CAN settings
-│
-│── docs/
-│   ├── README.md
-│   └── images/            # Circuit & PCB renders
-
 🧩 Applications
 
 Vehicle diagnostics (OBD-II data monitoring)
