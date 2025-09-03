@@ -102,4 +102,3 @@ Encryption for secure vehicle data transfer
 
 Integration with mobile OBD-II diagnostic apps
 
-✨ Made with ❤️ for Automotive IoT + Embedded Systems + KiCad PCB Design
